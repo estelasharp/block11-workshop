@@ -1,0 +1,221 @@
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #6e7a64dd;
+    padding: 20px 10px;
+    
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 35px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #384934;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the active/current link*/
+  /* .header a.active {
+    background-color: rgba(54, 71, 63, 0.845);
+    color: white;
+  } */
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  /* below is the header responsive */
+@media screen and (max-width:1050) {
+    .desktop{
+        margin:0 auto !important;
+        padding:0 !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .ipad{
+        margin:0 auto !important;
+        padding:0 !important;
+    }
+}
+@media screen and (max-width:320px) {
+    .mobile{
+        margin:0 auto !important;
+        padding:0 !important;
+    }
+}
+
+
+
+/* #containter {
+  width: 900px;
+  padding: 4px;
+  margin: 25px;
+  height:170px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:#eaeaea;
+  border-radius: 35px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 12px -2px rgb(0, 0, 0);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-style: dashed; */
+  
+
+  html {
+    background-color: #c2c5c1d8;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin:auto;
+  
+    
+  }
+  
+  body {
+    background-color: #ffffff;
+    box-shadow: 0 0 12px -2px rgb(0, 0, 0);
+    /* height: 100vh; */
+    max-width: 960px;
+    display:flexbox;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    
+  }
+
+  .img {
+
+    /* border-radius:50px;
+    padding:20px;
+    code was not rounding the corner of image */
+    border-radius: 25px;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 15px;
+    box-shadow: 0 0 12px -2px rgb(0, 0, 0);
+    width: 350px;
+    margin: auto;
+    background-color: #eef1ee;
+    
+  }
+
+  h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .about-content {
+    margin: 30px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  
+  }
+
+
+/* #container {
+  columns:3;
+  border-style: dashed;
+  vertical-align:top;
+  display: inline-block;
+  margin:5px; */
+
+
+.img1,
+.img2,
+.img3 {
+  float:left;
+  padding:8px;
+  border-radius: 25px;
+}
+
+#container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 600px;
+  background-color: #c3c9c3;
+  border-radius: 25px;
+  padding:10px;
+  align-content: center;
+
+}
+
+#container div{
+  height:500px;
+  width:1000px;
+  margin: 10px;
+  text-align: left;
+  background: white;
+  padding:10px;
+  border-radius: 25px;
+  box-shadow: 0 0 12px -2px rgb(0, 0, 0);
+  align-items: center;
+  align-content: center;
+}
+
+
+#portfolio {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.project1,
+.project2,
+.project3 {
+
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background: white;
+  padding:10px;
+  border-radius: 25px;
+  box-shadow: 0 0 12px -2px rgb(0, 0, 0);
+  background-color: #c3c9c3;
+  margin: 25px;
+}
+
+#textbox {
+text-align: center;
+align-items: center;
+align-content: center;
+border-style: dashed;
+margin: auto;
+}
